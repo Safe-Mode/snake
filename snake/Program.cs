@@ -11,6 +11,7 @@ namespace snake
         static void Main(string[] args)
         {
             Console.SetBufferSize(80, 25);
+            Console.SetWindowSize(80, 25);
 
             //Отрисовка рамки
             HorizontalLine upLine = new HorizontalLine(0, 78, 0, '+');
